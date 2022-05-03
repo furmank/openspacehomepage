@@ -1,0 +1,783 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif;*/
+/*
+.body {
+    background-image: url("/OpenSpace/images/");
+    background-size: 100%;
+    background-repeat: no-repeat;
+} */
+.buttonPrimary {
+    background-color: #13278A;
+    color: #FAFAFA;
+    height: 38px;
+    width: 150px;
+    font-size: 16px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.buttonSecondary {
+    background-color: #FFFFFF;
+    color: #2B3991;
+    height: 38px;
+    width: 150px;
+    font-size: 16px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border: #F1B48F;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+/* Navbar CSS*/
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: auto;
+}
+.navBarIcons {
+    display: grid;
+    height: auto;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    justify-content: center;
+}
+.navBarLogo {
+    padding: 15px;
+}
+.navButton {
+    color: #13278A;
+}
+a {
+    text-decoration: none;
+    color: #13278A;
+    font-family: 'Poppins', sans-serif;
+}
+/* Hero CSS */
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-content: center; 
+    background-image: linear-gradient(to right, #FFCEC6 , #FFDBED); 
+    border-radius: 28px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 50px;
+    height: auto;
+}
+.heroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroImg {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#heroText {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    color: #13278A;
+}
+#heroBody {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #13278A;
+}
+#searchBar {
+    border-radius: 4px;
+    padding: 5px;
+    margin: 15px;
+    width: auto
+}
+
+/* search bar code */
+*, *::before, *::after { box-sizing: border-box; }
+
+.product-search {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: rgba(0,0,0,.172549) 0 6px 12px 0;
+  cursor: pointer;
+  border-radius: 40px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 57px;
+  margin-bottom: 79px;
+}
+
+.search-element {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  border-right: 1px solid rgba(10,10,10,.1);
+  padding: 1em;
+}
+
+.search-label {
+  font-weight: 700;
+}
+
+.search-input {
+  border: none;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-top: 5px;
+}
+
+.search-input:focus {
+  box-shadow: 0px 2px 0px 0px gray;
+}
+
+.search-button {
+  display: inline-block;
+  flex-grow: 1;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 2em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 100;
+  border: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  transition: background-color 0.8s ease;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.search-button:hover {
+  background-color: HSLA(8, 100%, 89%, 1.00);
+}
+
+/*What we do*/
+#whatWeDoHeaderText {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.WWDIcon {
+    height: 400px;
+    text-align: center;
+}
+.WWDHead{
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 36px;
+    text-align: center;
+}
+.WWDBody {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 25px;
+    text-align: center;
+}
+.whatWeDo {
+    display: flex;
+    flex-direction: column;
+}
+.whatWeDoDivs {
+    display: flex;
+    justify-content: center;
+}
+.WWDDivs {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Featured Spaces CSS*/
+.featSpacHead {
+    display: flex;
+    justify-content: start;
+}
+.featSpacImg {
+    display: flex;
+    justify-content: center;
+}
+.featSpacButton {
+    display: flex;
+    justify-content: flex-end;
+}
+.featuredSpaces {
+    width: 80%; 
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#featSpacHeadText {
+    width: auto;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    color: #13278A;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+/* App Section */
+.appsText {
+    background-image: url(/images/everywhereBackgroundLines.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.apps {
+    display: flex;
+    margin: 100px;
+}
+
+#ATHText {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 41px;
+    color: #13278A;
+}
+#ATHBody {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    color: #13278A;
+    width: 80%;
+}/*Customer Reviews CSS*/
+.customerReviews {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.reviewCard {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reviewName {
+    display: flex;
+    align-items: center;
+}
+#RNHImg {
+    height: 100%;
+    margin-left: 15px;
+}
+#RNHead {
+    font-family: 'poppins', sans-serif;
+    margin-right: 15px;
+    color: #13278A;
+    font-size: 22px;
+}
+#RBBody {
+    width: 90%;
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 20px;
+}
+.reviewDots {
+    margin-right: 20px;
+}
+.reviewPicture {
+    margin-left: 20px;
+}
+
+/* Footer CSS */
+.footer {
+    background-color: #FFCEC6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footerBody {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    color: #13278A;
+}
+.footerDiv {
+    width: 25%;
+}
+.footerIcons {
+    font-size: 19px;
+    text-align: left;
+}
+.navButtonFooter {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 19px;
+}
+.footerRight {
+    display: flex;
+    flex-direction: column;
+}
+#FRHead {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    color: #13278A;
+    font-size: 18px;
+}
+#FRAddress {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 16px;
+}
+.socialIcons  {
+    display: flex;
+}
+.socialIconsIndv {
+    margin-left: 9px;
+}
+
+
+
+/*
+.hero {
+    width: 1200px;
+    /* background-image: placeholder;
+    
+    margin-top: 15px;
+
+    display: flex;
+}*/
+
+
+/*
+.btnBlock {
+    background-color:transparent;
+    width: 1200px;
+    height: 100px;
+    display: block;
+    margin: 25px auto;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: purple;
+}
+
+.navigation {
+    background-color: orange;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    align-self: flex-start;
+}
+.navButtons {
+    align-self: flex-end;
+}
+
+
+.heroContent {
+    background-color: #f6f6f8;
+    color: blue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroContent h1 {
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+.heroContent p {
+    color: blue;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 120px;
+}
+.heroPic {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroPic img {
+    height: 80%;
+    background-color: purple;
+    }
+
+.weDo {
+    width: 1200px;
+    height: 70vh;
+    background-color: #f6f6f8; 
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.weDoContainer {
+    background-color: #f6f6f8;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: right;
+    
+}
+.weDo h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   width: 150px;
+    font-size: 64px; 
+    text-align: right;
+    min-width: 560px;
+    color: #1F3D27;
+  }
+  
+  .weDo p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   width: 150px;
+    font-size: 14px; 
+    text-align: right;
+    min-width: 560px;
+  }
+.weDoImage {
+    background-color: rgb(78, 65, 148);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weDoImage img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.featuredSpaces {
+    width: 1200px;
+    background-color: pink; 
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.featuredSpaces h1 {
+    width: 1200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.featuredImages {
+    width: 1200px;
+    height: 900px;
+    margin: 0% auto 0% auto;  
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.spaceSmall {
+    background-color: grey;
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.spaceSmall img {
+    height: 45%;
+    margin: 10px 133px 10px 133px;
+    background-color: greenyellow;
+    border-radius: 20px;    
+    }
+.spaceLarge {
+    background-color: grey;
+    width: 50%;
+    align-items: Right;
+    margin-top: 50px;
+}
+
+.spaceLarge img {
+    background-color: grey;
+    Width: 90%;
+    border-radius: 20px;    
+    align-items: Right;
+}
+.featured button {
+    align-self: flex-end;
+}
+
+.apps {
+    width: 1280px;
+    height: 75vh;
+     background-image: url("images/syed.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.appContent {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.appContent img {
+    width: 50%;
+    border-radius: 60px;
+    box-shadow: grey;
+
+}
+.description {
+    text-align: center;
+    align-items: center;
+}
+
+.app h1 {
+    margin-top: 20px;
+    font-size: 64px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: blue;
+}
+
+.customerReviews {
+    width: 1280px;
+    height: 720px;
+    background-color: grey; 
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.carousel {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.carousel p {
+    color: black;
+    text-align: center;
+}
+.review1 {
+    background-color: pink;
+    border-radius: 4px;
+    width: 1080px;
+    padding: 10px; 
+    margin: 80px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.carousel img {
+    height: 200px;
+    width: 200px;
+    }
+
+.reviewContent {
+        background-color: purple;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer {
+        background-color: orange;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footerLogo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Social img {
+        height: 20px;
+        width: 20px;
+        background-color: #1F3D27 ;
+        border: #1F3D27;
+        border-radius: 100%;
+    }
+    .ContactAndSocial {
+        width: 100%;
+        background-color: #f6f6f8; 
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px;
+    }
+    .Contact {
+        color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Contact h3{
+        color: blue;
+        justify-content: center;
+        text-align: center;
+    }
+    .ContactAndSocial img {
+        height: 200px;
+        width: 200px;
+         border-radius: 80%;
+        }
+    
+    .Social img {
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        border-radius: 0;
+    }
+
+.myCarousel {
+    width: 1440px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myCarousel slide img {
+    background-color: #99A393;
+}
+.myCarousel img {
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+    }
+
+
+.myCarousel h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.myCarousel p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.carousel-item {
+    height: 420px;
+    width: 420px;
+    border-radius: 20px;
+    }
+.carousel-indicators {
+ justify-items: center;
+}
+#carousel-caption {
+color: black;
+}
+.carousel-item active {
+    background-color: #99A393;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.carousel-item {
+    background-color: #99A393;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+.SpaceBreak {
+    width: 100%;
+    height: 720px;
+    background-color: #f6f6f8; 
+    display: flex;
+    flex-direction: row;
+}
+.SpaceImage {
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.SpaceImage img {
+    height: 720px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    transform: rotate(90deg);
+}
+
+.imageSpace {
+    width: 1440px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
+.imageSpace img {
+    width: 50%;
+    background-image: url("/class/images/annie.jpg");
+    background-repeat: no-repeat ;
+    background-size: contain;
+    transform: rotate(90deg);
+}
+
+
+*/
